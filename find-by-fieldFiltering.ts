@@ -1,7 +1,7 @@
 {
   //METHOD 1
   //Find by field filtering
-  db.test.find({ gender: "Male" }, { birthday: 1, email: 1 });
+  // db.test.find({ gender: "Male" }, { birthday: 1, email: 1 });
 
   //Output:
 
@@ -12,7 +12,7 @@
 
   //METHOD 2
   //Find by field filtering with projection
-  db.test.find({ gender: "Male" }).project({ birthday: 1, email: 1 });
+  // db.test.find({ gender: "Male" }).project({ birthday: 1, email: 1 });
 
   //Output:
 
